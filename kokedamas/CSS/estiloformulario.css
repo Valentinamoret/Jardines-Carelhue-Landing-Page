@@ -1,0 +1,99 @@
+.bg-image{
+    background-image: url(/IMAGENES/fondo4.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    background-color: rgba(100, 100, 100, 0.4);
+    padding: 10px 55px;
+    box-shadow: 0 0 90px black;
+    border-radius: 40px;
+    text-align: center;
+    width: 340px;
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+h2{
+    background-color: rgba(100, 100, 100, 0.3);
+    color: azure;
+    font-size: 35px;
+    padding: 10px 15px;
+    box-shadow: 0 0 90px black;
+    border-radius: 40px;
+    text-align: center;
+    width: 300px;
+}
+
+h5{
+    color: azure;
+    font-size: 15px;
+}
+
+label{
+    color: azure;
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+
+input, textarea{
+    padding: 17px, 25px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    background-color: whitesmoke;
+    border: 2px solid whitesmoke;
+    color: rgb(0, 0, 0);
+    outline: none;
+}
+
+input::placeholder, textarea::placeholder {
+    color: #abb2ac;
+}
+
+.form-text {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.form-text a {
+    color: azure;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.form-text a:hover{
+    color: rgb(0, 0, 0, 0.9);
+}
+
+.botonS {
+    background-color: rgba(100, 100, 100, 0.4);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    border: 0;
+    border-radius: 25px;
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.botonS:hover {
+    background-color: rgba(100, 100, 100, 0.7);
+}
+
